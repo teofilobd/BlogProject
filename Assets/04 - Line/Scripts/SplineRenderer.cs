@@ -225,7 +225,7 @@ public class SplineRenderer : MonoBehaviour
 		{
 			foreach(Transform point in m_ControlPoints)
 			{
-				//Gizmos.DrawWireSphere(point.position, 0.5f);
+				Gizmos.DrawWireSphere(point.position, 0.5f);
 			}
 
 			if(m_ControlPoints.Length >= 4 && m_StepSize > 0.0f)
