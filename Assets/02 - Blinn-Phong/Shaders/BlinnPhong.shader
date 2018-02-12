@@ -91,8 +91,8 @@
 
 				// Phong
 				//fixed3 lightReflection = reflect(-lightDir, normalDir);
-				//fixed dotRV = max(dot(lightReflection, viewDir), 0.0);
-				//fixed3 specular = _SpecularIntesity * _SpecularColor * pow(dotVL, _Shininess);
+				//fixed dotLV = max(dot(lightReflection, viewDir), 0.0);
+				//fixed3 specular = _SpecularIntesity * _SpecularColor * pow(dotLV, _Shininess);
 
 				// Blinn-Phong
 				fixed3 halfVector = normalize(lightDir + viewDir);
